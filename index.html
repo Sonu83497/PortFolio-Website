@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header/Navbar -->
+    <header>
+      <nav>
+        <div class="logo">Sonu<span>Xpert</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hi, I'm <span>Sonu Prajapati</span></h1>
+          <h3>FullStack Developer | Cyber Security Expert</h3>
+          <p>
+            I build beautiful, responsive websites and Provides a Safe and
+            Reliable Solutions.
+          </p>
+          <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-image">
+          <img src="sonupic.jpg" alt="Sonu Pic" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="about.jpg" alt="Sonu Prajapati" />
+        <div class="about-text">
+          <h3>Hello,</h3>
+          <p>
+            I'm Sonu Prajapati. I am from Gwalior. I am currently pursuing my
+            Bachelor's degree in B.Tech Computer Science Engineering from
+            Vikrant Institute Of Technology & Management Gwalior.
+          </p>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>BootStrap</span>
+            <span>C Language</span>
+            <span>C++ Language</span>
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Mongo DB</span>
+            <span>Computer Network</span>
+            <span>AWS</span>
+            <span>Ethical Hacking</span>
+            <span>Linux</span>
+            <span>DSA</span>
+            <span>Cisco Packet Tracer</span>
+            <span>Visual Studio Code</span>
+            <span>GitHub</span>
+          </div>
+          <a href="SONU.pdf" class="btn">Download Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="NumberGuess.png" alt="Project 1" />
+          <h3>Number Guess Game</h3>
+          <p>A simple command-line number guessing game written in python.</p>
+          <a
+            href="https://github.com/Sonu83497/Number-Guess-Game.git"
+            class="btn"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <img src="CalculatorImage.jpg" alt="Project 2" />
+          <h3>Simple Calculator</h3>
+          <p>
+            A basic calculator web app built using HTML, CSS, and JavaScript.
+          </p>
+          <a
+            href="https://github.com/Sonu83497/Simple-Calculator.git"
+            class="btn"
+            >View Project</a
+          >
+        </div>
+        <div class="project-card">
+          <img src="portfolio.jpg" alt="Project 3" />
+          <h3>PortFolio</h3>
+          <p>
+            A portfolio website built with HTML, CSS, and JavaScript is an
+            online platform that showcases an individual's skills, projects.
+          </p>
+          <a href="http://127.0.0.1:5500/index.html" class="btn"
+            >View Project</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <!-- Animated Contact Form -->
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" required />
+            <label for="name">Enter Your Name</label>
+            <div class="underline"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" required />
+            <label for="email">Enter Your Email</label>
+            <div class="underline"></div>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="4" required></textarea>
+            <label for="message">Enter Your Message</label>
+            <div class="underline"></div>
+          </div>
+          <button type="submit" class="btn btn-submit">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+
+        <!-- Interactive Social Links -->
+        <div class="social-section">
+          <h3>Or find me here:</h3>
+          <div class="social-links">
+            <a
+              href="https://github.com/Sonu83497"
+              class="social-btn"
+              data-tooltip="GitHub"
+            >
+              <i class="fab fa-github"></i>
+              <span class="tooltip">GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sonu-prajapati-a75306301/"
+              class="social-btn"
+              data-tooltip="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+              <span class="tooltip">LinkedIn</span>
+            </a>
+            <a
+              href="https://x.com/SonuPra09912476?t=anOChNr6L5xy8PHNU29yzg&s=09"
+              class="social-btn"
+              data-tooltip="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+              <span class="tooltip">Twitter</span>
+            </a>
+            <a
+              href="mailto:sonuprajapati83497@gmail.com"
+              class="social-btn"
+              data-tooltip="Email"
+            >
+              <i class="fas fa-envelope"></i>
+              <span class="tooltip">Email</span>
+            </a>
+          </div>
+
+          <!-- Animated Contact Card -->
+          <div class="contact-card">
+            <div class="card-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="card-content">
+              <h4>Call Me</h4>
+              <p>+91 (834) 973-7671</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 SonuXpert. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
